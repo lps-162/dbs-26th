@@ -13,6 +13,19 @@ class CounterComponent extends React.Component {
         // this.increment = this.increment.bind(this)
         // this.decrement = this.decrement.bind(this)
     }
+    
+    componentDidMount() {
+        // fetch data from spring backend
+        // axios.get("http://localhost:8080")
+    }
+
+    componentDidUpdate() {
+        
+    }
+
+    componentWillUnmount() {
+        // do cleanup stuffs before the component gets unmounted
+    }
 
     increment = () => {
         console.log("Increment method")

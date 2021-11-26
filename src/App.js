@@ -1,7 +1,6 @@
 import Counter from "./Counter";
 
-function App() {
-
+function App(props) {
   return (
     <div>
       <h2>Musicality in React</h2>
