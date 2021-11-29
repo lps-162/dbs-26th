@@ -19,6 +19,10 @@ class CounterComponent extends React.Component {
         // axios.get("http://localhost:8080")
     }
 
+    shouldComponentUpdate() {
+
+    }
+
     componentDidUpdate() {
         
     }
